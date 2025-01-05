@@ -1,0 +1,8 @@
+import "@babel/register";
+
+import { resolve } from 'path';
+
+export const config = resolve('config/database.js');
+export const modelsPath = resolve('models');
+export const migrationsPath = resolve('migrations');
+export const seedersPath = resolve('seeders');

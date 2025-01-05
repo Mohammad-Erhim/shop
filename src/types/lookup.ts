@@ -1,0 +1,24 @@
+export enum LookupTypeEnum {
+  USER_ROLE = 'USER_ROLE',
+  CATEGORIES = 'CATEGORIES',
+  ADJUSTMENT_TYPE = 'ADJUSTMENT_TYPE',
+  PRODUCT_ATTRIBUTE = 'PRODUCT_ATTRIBUTE',
+  ORDER_STATUS = 'ORDER_STATUS',
+}
+
+export enum UserRole {
+  CUSTOMER = 'CUSTOMER',
+  ADMIN = 'ADMIN',
+}
+
+export enum AdjustmentType {
+  FIXED = 'FIXED',
+  PERCENTAGE = 'PERCENTAGE',
+}
+
+export enum OrderStatus {
+  PENDING = 'PENDING',
+  PROCESSING = 'PROCESSING',
+  COMPLETED = 'COMPLETED',
+  CANCELLED = 'CANCELLED',
+}

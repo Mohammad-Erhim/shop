@@ -1,0 +1,53 @@
+{
+  "status": {
+    "success": "{{action}} {{entity}} succeed.",
+    "fail": "{{action}} {{entity}} failed.",
+    "notFound": "The specified {{entity}} does not exist.",
+    "alreadyExists": "The specified {{entity}} already exists.",
+    "invalid": "The specified {{entity}} is invalid.",
+    "empty": "The {{entity}} is empty."
+  },
+  "actions": {
+    "register": "Register",
+    "login": "Login",
+    "refreshToken": "Refresh Token",
+    "upload": "Upload",
+    "add": "Add",
+    "update": "Update",
+    "delete": "Delete"
+  },
+  "entities": {
+    "user": "user",
+    "product": "product",
+    "category": "category",
+    "file": "file",
+    "adjustmentType": "adjustment type",
+    "productAttribute": "product attribute",
+    "tax": "tax",
+    "favorite": "favorite",
+    "cart": "cart",
+    "cartItem": "cart item",
+    "order": "order"
+  },
+  "attributes": {
+    "expiresAt": "expires at",
+    "discountValue": "discount value"
+  },
+  "auth": {
+    "invalidCredentials": "Invalid credentials provided.",
+    "noAccessToken": "No token provided.",
+    "invalidOrExpiredToken": "Invalid or expired token.",
+    "unauthorized": "You are not authorized to perform this action.",
+    "userExists": "A user with this email already exists."
+  },
+  "validation": {
+    "validationError": "Validation error."
+  },
+  "file": {
+    "notProvided": "No file provided."
+  },
+  "error": {
+    "serverError": "An unexpected error occurred. Please try again later.",
+    "databaseError": "A database error occurred. Please contact support."
+  }
+}

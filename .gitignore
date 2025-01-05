@@ -1,0 +1,51 @@
+# Node modules and dependencies
+node_modules/
+
+# Logs
+logs/
+*.log
+
+# Environment variables
+.env
+
+# TypeScript build output
+/dist
+/build
+
+# IntelliJ IDEA
+.idea/
+
+# VS Code settings
+.vscode/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Package lock and npm-debug logs
+package-lock.json
+npm-debug.log
+
+# Git directory files (should already be ignored by git, but added for safety)
+.git/
+.git/config
+.git/objects
+.git/HEAD
+.git/info
+.git/description
+.git/hooks
+.git/refs
+.git/branches
+.git/FETCH_HEAD
+
+# Editor settings (optional)
+.eslintconfig.mjs
+
+# TypeScript compiler output
+*.tsbuildinfo
+
+# Uploaded files
+/local-bucket
+
+# backups files
+/backups

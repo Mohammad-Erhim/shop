@@ -1,0 +1,42 @@
+{
+  "status": {
+    "success": "{{action}} {{entity}} نجح.",
+    "fail": "{{action}} {{entity}} فشل.",
+    "notFound": "{{entity}} المحدد غير موجود."
+  },
+  "actions": {
+    "register": "تسجيل",
+    "login": "تسجيل الدخول",
+    "refreshToken": "تحديث الرمز",
+    "upload": "رفع",
+    "add": "إضافة",
+    "update": "تحديث",
+    "delete": "حذف"
+  },
+  "entities": {
+    "user": "المستخدم",
+    "product": "المنتج",
+    "category": "الفئة",
+    "file": "الملف",
+    "adjustmentType": "نوع التعديل",
+    "productAttribute": "صفة المنتج",
+    "tax": "الضريبة"
+  },
+  "auth": {
+    "invalidCredentials": "بيانات الاعتماد غير صحيحة.",
+    "noAccessToken": "لم يتم تقديم رمز.",
+    "invalidOrExpiredToken": "الرمز غير صالح أو منتهي الصلاحية.",
+    "unauthorized": "أنت غير مصرح لك بتنفيذ هذا الإجراء.",
+    "userExists": "يوجد مستخدم بهذا البريد الإلكتروني بالفعل."
+  },
+  "validation": {
+    "validationError": "خطأ في التحقق."
+  },
+  "file": {
+    "notProvided": "لم يتم تقديم ملف."
+  },
+  "error": {
+    "serverError": "حدث خطأ غير متوقع. يرجى المحاولة مرة أخرى لاحقًا.",
+    "databaseError": "حدث خطأ في قاعدة البيانات. يرجى الاتصال بالدعم."
+  }
+}
